@@ -20,7 +20,6 @@
       "description": "Group patch+minor updates, keep majors separate",
       "matchManagers": ["npm"],
       "matchDepTypes": ["dependencies", "devDependencies", "peerDependencies"],
-      "matchUpdateTypes": ["patch", "minor", "major"],
       "separateMajorMinor": true
     },
     {
