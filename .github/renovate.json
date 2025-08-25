@@ -1,0 +1,33 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":disableDependencyDashboard",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":ignoreModulesAndTests",
+    "workarounds:all",
+    "helpers:pinGitHubActionDigestsToSemver",
+    "docker:disable"
+  ],
+  "rangeStrategy": "bump",
+  "ignorePaths": ["**/node_modules/**"],
+  "packageRules": [
+    {
+      "groupName": "github-actions",
+      "matchManagers": ["github-actions"]
+    },
+    {
+      "groupName": "npm-packages",
+      "description": "Group patch+minor updates, keep majors separate",
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["dependencies", "devDependencies", "peerDependencies"],
+      "matchUpdateTypes": ["patch", "minor", "major"],
+      "separateMajorMinor": true
+    },
+    {
+      "description": "Disable package manager version updates",
+      "matchPackageNames": ["pnpm"],
+      "matchDepTypes": ["packageManager"],
+      "enabled": false
+    }
+  ]
+}
