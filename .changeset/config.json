@@ -10,5 +10,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["starlight-theme-next-docs", "@fontsource/geist-mono", "@fontsource/geist-sans"]
+  "ignore": ["starlight-theme-next-docs"]
 }
