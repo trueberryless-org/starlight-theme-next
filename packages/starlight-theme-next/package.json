@@ -28,7 +28,7 @@
     "./styles.css": "./styles.css"
   },
   "devDependencies": {
-    "@astrojs/starlight": "^0.34.0",
+    "@astrojs/starlight": "^0.35.2",
     "astro": "^5.7.3"
   },
   "peerDependencies": {
