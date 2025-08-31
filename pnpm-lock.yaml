@@ -28,13 +28,13 @@ importers:
     dependencies:
       '@astrojs/starlight':
         specifier: ^0.34.3
-        version: 0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+        version: 0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
       '@trueberryless-org/starlight-plugins-docs-components':
         specifier: ^0.4.2
-        version: 0.4.2(@astrojs/starlight@0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+        version: 0.4.2(@astrojs/starlight@0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
       astro:
-        specifier: ^5.7.13
-        version: 5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
+        specifier: ^5.13.5
+        version: 5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
       sharp:
         specifier: ^0.34.3
         version: 0.34.3
@@ -46,10 +46,10 @@ importers:
     devDependencies:
       '@astrojs/starlight':
         specifier: ^0.34.0
-        version: 0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+        version: 0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
       astro:
-        specifier: ^5.7.3
-        version: 5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
+        specifier: ^5.13.5
+        version: 5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
 
   packages/starlight-theme-next/fonts/geist-mono: {}
 
@@ -1016,8 +1016,8 @@ packages:
     peerDependencies:
       astro: ^4.0.0-beta || ^5.0.0-beta || ^3.3.0
 
-  astro@5.13.2:
-    resolution: {integrity: sha512-yjcXY0Ua3EwjpVd3GoUXa65HQ6qgmURBptA+M9GzE0oYvgfuyM7bIbH8IR/TWIbdefVUJR5b7nZ0oVnMytmyfQ==}
+  astro@5.13.5:
+    resolution: {integrity: sha512-XmBzkl13XU97+n/QiOM5uXQdAVe0yKt5gO+Wlgc8dHRwHR499qhMQ5sMFckLJweUINLzcNGjP3F5nG4wV8a2XA==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2569,18 +2569,18 @@ packages:
 
 snapshots:
 
-  '@astro-community/astro-embed-twitter@0.5.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))':
+  '@astro-community/astro-embed-twitter@0.5.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))':
     dependencies:
       '@astro-community/astro-embed-utils': 0.1.3
-      astro: 5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
+      astro: 5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
 
   '@astro-community/astro-embed-utils@0.1.3':
     dependencies:
       linkedom: 0.14.26
 
-  '@astro-community/astro-embed-youtube@0.5.6(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))':
+  '@astro-community/astro-embed-youtube@0.5.6(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))':
     dependencies:
-      astro: 5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
+      astro: 5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
       lite-youtube-embed: 0.3.3
 
   '@astrojs/compiler@2.11.0': {}
@@ -2643,12 +2643,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.2.3(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))':
+  '@astrojs/mdx@4.2.3(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
       '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
       acorn: 8.14.1
-      astro: 5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
+      astro: 5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
       es-module-lexer: 1.6.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -2676,17 +2676,17 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.2
 
-  '@astrojs/starlight@0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))':
+  '@astrojs/starlight@0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
-      '@astrojs/mdx': 4.2.3(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      '@astrojs/mdx': 4.2.3(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
       '@astrojs/sitemap': 3.3.0
       '@pagefind/default-ui': 1.3.0
       '@types/hast': 3.0.4
       '@types/js-yaml': 4.0.9
       '@types/mdast': 4.0.4
-      astro: 5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
-      astro-expressive-code: 0.41.2(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      astro: 5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
+      astro-expressive-code: 0.41.2(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.3
       hast-util-select: 6.0.4
@@ -3060,11 +3060,11 @@ snapshots:
     dependencies:
       '@expressive-code/core': 0.41.2
 
-  '@hideoo/starlight-plugins-docs-components@0.4.0(@astrojs/starlight@0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))':
+  '@hideoo/starlight-plugins-docs-components@0.4.0(@astrojs/starlight@0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))':
     dependencies:
-      '@astrojs/starlight': 0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
-      starlight-package-managers: 0.8.1(@astrojs/starlight@0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))
-      starlight-showcases: 0.3.0(@astrojs/starlight@0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      '@astrojs/starlight': 0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      starlight-package-managers: 0.8.1(@astrojs/starlight@0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))
+      starlight-showcases: 0.3.0(@astrojs/starlight@0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
     transitivePeerDependencies:
       - astro
 
@@ -3480,12 +3480,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@trueberryless-org/starlight-plugins-docs-components@0.4.2(@astrojs/starlight@0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))':
+  '@trueberryless-org/starlight-plugins-docs-components@0.4.2(@astrojs/starlight@0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))':
     dependencies:
-      '@astrojs/starlight': 0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
-      '@hideoo/starlight-plugins-docs-components': 0.4.0(@astrojs/starlight@0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      '@astrojs/starlight': 0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      '@hideoo/starlight-plugins-docs-components': 0.4.0(@astrojs/starlight@0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
       change-case: 5.4.4
-      starlight-showcases: 0.2.0(@astrojs/starlight@0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      starlight-showcases: 0.2.0(@astrojs/starlight@0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
     transitivePeerDependencies:
       - astro
 
@@ -3582,12 +3582,12 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.41.2(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)):
+  astro-expressive-code@0.41.2(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)):
     dependencies:
-      astro: 5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
+      astro: 5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)
       rehype-expressive-code: 0.41.2
 
-  astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3):
+  astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.7.2
@@ -3922,7 +3922,7 @@ snapshots:
   esast-util-from-js@2.0.1:
     dependencies:
       '@types/estree-jsx': 1.0.5
-      acorn: 8.14.1
+      acorn: 8.15.0
       esast-util-from-estree: 2.0.0
       vfile-message: 4.0.3
 
@@ -3961,7 +3961,7 @@ snapshots:
 
   estree-util-attach-comments@3.0.0:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
 
   estree-util-build-jsx@3.0.1:
     dependencies:
@@ -4703,7 +4703,7 @@ snapshots:
 
   micromark-extension-mdx-expression@3.0.1:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       devlop: 1.1.0
       micromark-factory-mdx-expression: 2.0.3
       micromark-factory-space: 2.0.1
@@ -4714,7 +4714,7 @@ snapshots:
 
   micromark-extension-mdx-jsx@3.0.2:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       devlop: 1.1.0
       estree-util-is-identifier-name: 3.0.0
       micromark-factory-mdx-expression: 2.0.3
@@ -4731,7 +4731,7 @@ snapshots:
 
   micromark-extension-mdxjs-esm@3.0.0:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.3
       micromark-util-character: 2.1.1
@@ -4767,7 +4767,7 @@ snapshots:
 
   micromark-factory-mdx-expression@2.0.3:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       devlop: 1.1.0
       micromark-factory-space: 2.0.1
       micromark-util-character: 2.1.1
@@ -4831,7 +4831,7 @@ snapshots:
 
   micromark-util-events-to-acorn@2.0.3:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       '@types/unist': 3.0.3
       devlop: 1.1.0
       estree-util-visit: 2.0.0
@@ -5414,23 +5414,23 @@ snapshots:
 
   sprintf-js@1.0.3: {}
 
-  starlight-package-managers@0.8.1(@astrojs/starlight@0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))):
+  starlight-package-managers@0.8.1(@astrojs/starlight@0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))):
     dependencies:
-      '@astrojs/starlight': 0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      '@astrojs/starlight': 0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
 
-  starlight-showcases@0.2.0(@astrojs/starlight@0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)):
+  starlight-showcases@0.2.0(@astrojs/starlight@0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)):
     dependencies:
-      '@astro-community/astro-embed-twitter': 0.5.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
-      '@astro-community/astro-embed-youtube': 0.5.6(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
-      '@astrojs/starlight': 0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      '@astro-community/astro-embed-twitter': 0.5.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      '@astro-community/astro-embed-youtube': 0.5.6(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      '@astrojs/starlight': 0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
     transitivePeerDependencies:
       - astro
 
-  starlight-showcases@0.3.0(@astrojs/starlight@0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)):
+  starlight-showcases@0.3.0(@astrojs/starlight@0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)))(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3)):
     dependencies:
-      '@astro-community/astro-embed-twitter': 0.5.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
-      '@astro-community/astro-embed-youtube': 0.5.6(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
-      '@astrojs/starlight': 0.34.8(astro@5.13.2(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      '@astro-community/astro-embed-twitter': 0.5.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      '@astro-community/astro-embed-youtube': 0.5.6(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
+      '@astrojs/starlight': 0.34.8(astro@5.13.5(@types/node@24.3.0)(rollup@4.48.1)(typescript@5.8.3))
     transitivePeerDependencies:
       - astro
 
