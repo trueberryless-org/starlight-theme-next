@@ -1,5 +1,11 @@
 # starlight-theme-next
 
+## 0.3.3
+
+### Patch Changes
+
+- [#51](https://github.com/trueberryless-org/starlight-theme-next/pull/51) [`179c35a`](https://github.com/trueberryless-org/starlight-theme-next/commit/179c35aefdd6acd51bce638941379f3e5e427c58) Thanks [@trueberryless-org](https://github.com/apps/trueberryless-org)! - Setups trusted publishing using OpenID Connect (OIDC) authentication — no code changes.
+
 ## 0.3.2
 
 ### Patch Changes
