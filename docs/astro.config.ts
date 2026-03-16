@@ -1,6 +1,7 @@
 import starlight from "@astrojs/starlight";
 import starlightPluginsDocsComponents from "@trueberryless-org/starlight-plugins-docs-components";
 import { defineConfig } from "astro/config";
+import starlightLinksValidator from "starlight-links-validator";
 import starlightThemeNext from "starlight-theme-next";
 
 export default defineConfig({
@@ -14,6 +15,9 @@ export default defineConfig({
         starlightThemeNext(),
         starlightPluginsDocsComponents({
           pluginName: "starlight-theme-next",
+        }),
+        starlightLinksValidator({
+          exclude: ["#_"],
         }),
       ],
       sidebar: [
