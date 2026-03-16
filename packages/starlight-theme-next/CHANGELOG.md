@@ -1,5 +1,15 @@
 # starlight-theme-next
 
+## 0.4.0
+
+### Minor Changes
+
+- [#65](https://github.com/trueberryless-org/starlight-theme-next/pull/65) [`84b4096`](https://github.com/trueberryless-org/starlight-theme-next/commit/84b4096452bed89126f4e48f8b11c433240c0848) Thanks [@trueberryless](https://github.com/trueberryless)! - Adds support for Astro v6, drops support for Astro v5.
+
+  ⚠️ **BREAKING CHANGE:** The minimum supported version of Starlight is now `0.38.0`.
+
+  Please follow the [upgrade guide](https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.38.0) to update your project.
+
 ## 0.3.3
 
 ### Patch Changes
