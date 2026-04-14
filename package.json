@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "description": "Starlight theme inspired by the Next.js docs.",
-  "homepage": "https://starlight-theme-next.trueberryless.org/",
+  "homepage": "https://github.com/trueberryless-org/starlight-theme-next",
   "bugs": {
     "url": "https://github.com/trueberryless-org/starlight-theme-next/issues"
   },

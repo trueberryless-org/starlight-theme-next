@@ -3,15 +3,17 @@
   "version": "0.0.1",
   "private": true,
   "description": "Starlight theme inspired by the Next.js docs.",
-  "homepage": "https://starlight-theme-next.trueberryless.org/",
-  "bugs": "https://github.com/trueberryless-org/starlight-theme-next/issues",
+  "homepage": "https://starlight-theme-next.trueberryless.org",
+  "bugs": {
+    "url": "https://github.com/trueberryless-org/starlight-theme-next/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/trueberryless-org/starlight-theme-next.git",
     "directory": "docs"
   },
   "license": "MIT",
-  "author": "trueberryless-org",
+  "author": "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)",
   "type": "module",
   "scripts": {
     "astro": "astro",
