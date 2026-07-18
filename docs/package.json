@@ -30,7 +30,7 @@
     "starlight-links-validator": "^0.20.1",
     "starlight-theme-next": "workspace:*"
   },
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@11.1.2",
   "engines": {
     "node": ">=22.12.0"
   }
