@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "description": "Starlight theme inspired by the Next.js docs.",
-  "homepage": "https://starlight-theme-next.trueberryless.org",
+  "homepage": "https://starlight-theme-next.netlify.app/",
   "bugs": {
     "url": "https://github.com/trueberryless-org/starlight-theme-next/issues"
   },
@@ -13,7 +13,7 @@
     "directory": "docs"
   },
   "license": "MIT",
-  "author": "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)",
+  "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
   "type": "module",
   "scripts": {
     "astro": "astro",
