@@ -27,7 +27,7 @@
     "@trueberryless-org/starlight-plugins-docs-components": "^0.6.0",
     "astro": "^6.4.8",
     "sharp": "^0.35.2",
-    "starlight-links-validator": "^0.25.1",
+    "starlight-links-validator": "^0.25.2",
     "starlight-theme-next": "workspace:*"
   },
   "packageManager": "pnpm@11.1.2",
