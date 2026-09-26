@@ -1,5 +1,19 @@
 # starlight-theme-next
 
+## 0.5.0
+
+### Minor Changes
+
+- [#105](https://github.com/trueberryless-org/starlight-theme-next/pull/105) [`de0b447`](https://github.com/trueberryless-org/starlight-theme-next/commit/de0b4475c8e644124ec63a21ffa26e784d5f2ae3) Thanks [@trueberryless](https://github.com/trueberryless)! - Adds support for Astro v7, drops support for Astro v6.
+  
+  ⚠️ **BREAKING CHANGE:** The minimum supported version of Starlight is now `0.42.0`.
+  
+  Please follow the [upgrade guide](https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.42.0) to update your project.
+
+### Patch Changes
+
+- [#105](https://github.com/trueberryless-org/starlight-theme-next/pull/105) [`de0b447`](https://github.com/trueberryless-org/starlight-theme-next/commit/de0b4475c8e644124ec63a21ffa26e784d5f2ae3) Thanks [@trueberryless](https://github.com/trueberryless)! - Applies the theme custom properties to `::backdrop` pseudo-elements, matching how Starlight defines its own custom properties.
+
 ## 0.4.0
 
 ### Minor Changes
