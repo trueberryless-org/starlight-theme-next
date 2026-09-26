@@ -1,14 +1,15 @@
 @layer starlight, nextjs;
 
 @layer nextjs {
-  :root {
+  :root,
+  ::backdrop {
     --sl-font: "Geist Sans", sans-serif;
     --sl-font-mono: "Geist Mono", monospace;
     --sl-mobile-toc-height: 3.5rem;
   }
 
-  /* Dark mode colors. */
-  :root {
+  :root,
+  ::backdrop {
     --sl-color-accent-low: #142245;
     --sl-color-accent: #305adf;
     --sl-color-accent-high: #b3c8f7;
@@ -32,20 +33,15 @@
     --sl-text-h5: unset;
 
     --temp--toc-total-width: calc(
-      var(--__toc-width, var(--sl-sidebar-width))
-        /* actual sidebar width or fallback */ +
+      var(--__toc-width, var(--sl-sidebar-width)) +
         (2 * var(--__toc-width, 1.5rem))
-        /* extra padding/margins for TOC area */
     );
 
     --temp--available-space: calc(
-      100% - var(--temp--toc-total-width)
-        /* subtract full sidebar+TOC width */ -
-        var(--sl-content-inline-start, 0rem) /* subtract content indent */ -
-        var(--sl-content-width) /* subtract content block width */
+      100% - var(--temp--toc-total-width) -
+        var(--sl-content-inline-start, 0rem) - var(--sl-content-width)
     );
 
-    /* finally center that remaining space (divide by 2) and subtract fixed 1.5rem gap */
     --sidebar-margin-left: max(
       0rem,
       calc((var(--temp--available-space) / 2) - 1.5rem)
@@ -58,8 +54,8 @@
     }
   }
 
-  /* Light mode colors. */
-  :root[data-theme="light"] {
+  :root[data-theme="light"],
+  [data-theme="light"] ::backdrop {
     --sl-color-accent-low: #c7d7fa;
     --sl-color-accent: #325ce1;
     --sl-color-accent-high: #192d66;
@@ -75,8 +71,6 @@
 
     --sl-nextjs-header-bg-color: rgba(255, 255, 255, 0.5);
   }
-
-  /* Header */
 
   header.header {
     -webkit-backdrop-filter: blur(1rem);
@@ -166,8 +160,6 @@
     }
   }
 
-  /* Sidebar */
-
   .sidebar-pane {
     border-inline-end: 0;
   }
@@ -198,25 +190,9 @@
     font-weight: 700;
   }
 
-  /* .sidebar-content .caret {
-    display: none;
-  }
-
-  @media (min-width: 50rem) {
-    .sidebar-content summary {
-      --caret-adjustment: 0.5px;
-      transform: translateY(var(--caret-adjustment));
-    }
-
-    .sidebar-content .group-label {
-      transform: translateY(calc(-1 * var(--caret-adjustment)));
-    }
-  } */
-
   .sidebar-content li {
     border: 0;
     --sl-sidebar-item-padding-inline: 0.45rem;
-    /* margin: 0; */
     padding: 0;
   }
 
@@ -275,8 +251,6 @@
     position: relative;
   }
 
-  /* Banner */
-
   .sl-banner {
     background-color: var(--sl-color-accent-low);
     border: 1px solid var(--sl-color-accent-high);
@@ -314,8 +288,6 @@
   [data-has-sidebar] main:has(.sl-banner) {
     display: grid;
   }
-
-  /* Content */
 
   @media (min-width: 1152px) {
     :root {
@@ -363,8 +335,6 @@
     color: var(--sl-color-gray-2);
   }
 
-  /* Markdown */
-
   .sl-markdown-content a:not(:where(.not-content *)) {
     color: var(--sl-color-white);
     text-underline-offset: 0.25em;
@@ -409,8 +379,6 @@
     border-bottom: 1px solid var(--sl-color-gray-5);
   }
 
-  /* Tabs */
-
   starlight-tabs .tablist-wrapper {
     overflow-y: hidden;
   }
@@ -429,8 +397,6 @@
     border-color: var(--sl-color-white);
     color: var(--sl-color-white);
   }
-
-  /* Cards */
 
   .sl-markdown-content .card-grid.stagger {
     --stagger-height: 2.5rem;
@@ -475,8 +441,6 @@
     color: var(--sl-color-gray-2);
   }
 
-  /* Asides */
-
   .starlight-aside {
     border: 1px solid var(--sl-color-asides-border);
     border-radius: 0.5rem;
@@ -490,8 +454,6 @@
       var(--sl-color-black)
     );
   }
-
-  /* File Tree */
 
   .sl-markdown-content starlight-file-tree {
     background-color: var(--sl-color-black);
@@ -508,8 +470,6 @@
     border-color: var(--sl-color-accent-high);
   }
 
-  /* Notices */
-
   .content-panel:first-of-type p.sl-flex:not(:where(.sl-markdown-content *)) {
     border-radius: 0.5rem;
     padding: 1rem;
@@ -520,8 +480,6 @@
     svg {
     flex-shrink: 0;
   }
-
-  /* Steps */
 
   .sl-steps > li:last-of-type::after {
     --guide-width: 1px;
@@ -538,8 +496,6 @@
     top: calc(var(--bullet-size) + var(--bullet-margin));
     width: var(--guide-width);
   }
-
-  /* Link Buttons */
 
   :is(.hero, .sl-markdown-content) .sl-link-button {
     padding: 0.75rem 1rem;
@@ -581,8 +537,6 @@
     color: var(--sl-color-accent-high);
   }
 
-  /* Pagination Links */
-
   .pagination-links {
     gap: 0;
   }
@@ -610,8 +564,6 @@
   .pagination-links .link-title {
     font-size: var(--sl-text-lg);
   }
-
-  /* Table of Contents */
 
   .right-sidebar {
     border-inline-start: none;

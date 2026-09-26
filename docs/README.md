@@ -1,6 +1,6 @@
-# `starlight-theme-next`
+# `starlight-theme-next-docs`
 
-Starlight theme inspired by the Next.js docs.
+Documentation for the `starlight-theme-next` Starlight theme, deployed at [starlight-theme-next.netlify.app](https://starlight-theme-next.netlify.app).
 
 ## Documentation
 
@@ -10,10 +10,10 @@ Run the documentation locally by running the following command in your terminal:
 pnpm run dev
 ```
 
-Content can be found in the [`src/content/docs/`](./src/content/docs/) directory.
+Content can be found in the [`src/content/docs/`](https://github.com/trueberryless-org/starlight-theme-next/tree/main/docs/src/content/docs) directory.
 
 ## License
 
-Licensed under the MIT License, Copyright © trueberryless-org.
+Licensed under the MIT License, Copyright © trueberryless.
 
-See [LICENSE](/LICENSE) for more information.
+See [LICENSE](https://github.com/trueberryless-org/starlight-theme-next/blob/main/LICENSE) for more information.
