@@ -1,43 +1,47 @@
 {
   "name": "starlight-theme-next",
   "version": "0.4.0",
-  "description": "Starlight theme inspired by the Next.js docs.",
-  "keywords": [
-    "starlight",
-    "theme",
-    "nextjs",
-    "docs",
-    "black",
-    "dark"
-  ],
-  "homepage": "https://starlight-theme-next.netlify.app/",
-  "bugs": {
-    "url": "https://github.com/trueberryless-org/starlight-theme-next/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/trueberryless-org/starlight-theme-next.git",
-    "directory": "packages/starlight-theme-next"
-  },
   "license": "MIT",
+  "description": "Starlight theme inspired by the Next.js docs.",
   "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
   "type": "module",
   "exports": {
     ".": "./index.ts",
     "./fonts/*": "./fonts/*",
-    "./styles.css": "./styles.css"
+    "./styles.css": "./styles.css",
+    "./package.json": "./package.json"
   },
   "devDependencies": {
-    "@astrojs/starlight": "^0.42.0",
-    "astro": "^6.4.8"
+    "@astrojs/starlight": "^0.42.4",
+    "astro": "^7.3.5"
   },
   "peerDependencies": {
-    "@astrojs/starlight": ">=0.38"
+    "@astrojs/starlight": ">=0.42.0"
   },
   "engines": {
-    "node": ">=22.23.2"
+    "node": ">=22.12.0"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "sideEffects": false,
+  "keywords": [
+    "starlight",
+    "plugin",
+    "theme",
+    "nextjs",
+    "dark",
+    "black",
+    "documentation",
+    "astro",
+    "withastro",
+    "astro-integration"
+  ],
+  "homepage": "https://starlight-theme-next.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trueberryless-org/starlight-theme-next.git",
+    "directory": "packages/starlight-theme-next"
+  },
+  "bugs": "https://github.com/trueberryless-org/starlight-theme-next/issues"
 }

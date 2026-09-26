@@ -27,7 +27,7 @@ export default defineConfig({
         },
         {
           label: "Examples",
-          autogenerate: { directory: "examples" },
+          items: [{ autogenerate: { directory: "examples" } }],
         },
       ],
       social: [
