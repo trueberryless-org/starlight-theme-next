@@ -4,9 +4,33 @@ import { defineConfig } from "astro/config";
 import starlightLinksValidator from "starlight-links-validator";
 import starlightThemeNext from "starlight-theme-next";
 
+const site =
+  (process.env.CONTEXT === "deploy-preview" ||
+  process.env.CONTEXT === "branch-deploy"
+    ? process.env.DEPLOY_PRIME_URL
+    : process.env.URL) ?? "https://starlight-theme-next.netlify.app";
+
 export default defineConfig({
+  site,
   integrations: [
     starlight({
+      title: "Starlight Theme Next.js",
+      head: [
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:image",
+            content: new URL("og.png", site).href,
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:image:alt",
+            content: "Starlight theme inspired by the Next.js docs.",
+          },
+        },
+      ],
       editLink: {
         baseUrl:
           "https://github.com/trueberryless-org/starlight-theme-next/edit/main/docs/",
@@ -42,7 +66,6 @@ export default defineConfig({
           href: "https://github.com/trueberryless-org/starlight-theme-next",
         },
       ],
-      title: "Starlight Theme Next.js",
     }),
   ],
 });
