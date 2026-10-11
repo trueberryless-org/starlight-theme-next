@@ -1,10 +1,19 @@
 {
   "name": "starlight-theme-next-docs",
   "version": "0.0.1",
-  "license": "MIT",
-  "description": "Documentation for the Starlight Next.js theme.",
-  "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
   "private": true,
+  "description": "Documentation for the Starlight Next.js theme.",
+  "homepage": "https://starlight-theme-next.netlify.app/",
+  "bugs": {
+    "url": "https://github.com/trueberryless-org/starlight-theme-next/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trueberryless-org/starlight-theme-next.git",
+    "directory": "docs"
+  },
+  "license": "MIT",
+  "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
   "type": "module",
   "scripts": {
     "astro": "astro",
@@ -21,14 +30,8 @@
     "starlight-links-validator": "^0.26.0",
     "starlight-theme-next": "workspace:*"
   },
+  "packageManager": "pnpm@11.28.0",
   "engines": {
     "node": ">=22.12.0"
-  },
-  "homepage": "https://starlight-theme-next.netlify.app",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/trueberryless-org/starlight-theme-next.git",
-    "directory": "docs"
-  },
-  "bugs": "https://github.com/trueberryless-org/starlight-theme-next/issues"
+  }
 }

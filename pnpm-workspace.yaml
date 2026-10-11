@@ -1,7 +1,7 @@
 packages:
-  - "docs/"
-  - "packages/*"
-
+  - docs/
+  - packages/**/*
+  - packages/*
 allowBuilds:
   "@parcel/watcher": false
   "@tailwindcss/oxide": false
