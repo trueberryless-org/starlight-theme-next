@@ -1,5 +1,11 @@
 # starlight-theme-next
 
+## 0.5.1
+
+### Patch Changes
+
+- [#114](https://github.com/trueberryless/starlight-theme-next/pull/114) [`0a3eadc`](https://github.com/trueberryless/starlight-theme-next/commit/0a3eadc6c791cf95e8ee9321990341d84ffa4318) Thanks [@trueberryless-bot](https://github.com/trueberryless-bot)! - Updates the repository links after the move from the `trueberryless-org` GitHub organization to the `trueberryless` account.
+
 ## 0.5.0
 
 ### Minor Changes
