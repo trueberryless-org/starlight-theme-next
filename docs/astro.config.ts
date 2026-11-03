@@ -37,7 +37,7 @@ export default defineConfig({
       ],
       editLink: {
         baseUrl:
-          "https://github.com/trueberryless-org/starlight-theme-next/edit/main/docs/",
+          "https://github.com/trueberryless/starlight-theme-next/edit/main/docs/",
       },
       plugins: [
         starlightThemeNext(),
@@ -67,7 +67,7 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/trueberryless-org/starlight-theme-next",
+          href: "https://github.com/trueberryless/starlight-theme-next",
         },
       ],
     }),
